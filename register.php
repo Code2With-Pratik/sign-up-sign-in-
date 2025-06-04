@@ -83,10 +83,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <!-- Left Side: Registration Form -->
         <div class="w-full md:w-1/2 p-10 flex flex-col justify-center relative bg-white">
             <!-- Logo -->
-            <div class="absolute top-6 left-6 flex items-center gap-2">
-                <img src="../assets/images/logo.png" alt="Logo" class="w-40 h-10" />
+            <div class="absolute top-2 left-2 flex items-center gap-2">
+                <img src="../assets/images/logo.png" alt="Logo" class="w-32 h-8" />
             </div>
-            <a href="/smartstore" class="absolute top-6 right-6 text-sm text-gray-500 hover:underline">&larr; Back to Site</a>
+            <a href="/smartstore" class="absolute top-3 right-3 text-sm text-gray-500 hover:underline">&larr; Back to Site</a>
 
             <h2 class="text-2xl font-semibold text-gray-800 mt-12 mb-2 text-center">Create your SmartStore account 🚀</h2>
             <p class="text-sm text-center text-gray-500 mb-6">Register now and explore the SmartStore features!</p>
@@ -122,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <button type="submit" class="w-full bg-[#ff6600] text-white py-2 rounded-md hover:bg-[#e05500] transition">Create Account</button>
             </form>
 
-            <div class="text-center mt-4">
+            <div class="text-center mt-4 pb-2">
                 <span class="text-sm text-gray-600">Already have an account?</span>
                 <a href="index.php" class="text-sm text-white bg-orange-500 ml-2 px-3 py-1 rounded hover:bg-orange-600">Sign in</a>
             </div>
